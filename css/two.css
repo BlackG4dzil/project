@@ -1,0 +1,70 @@
+.screen-two {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+  @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,300;0,800;1,600;1,800&family=Roboto:wght@300;400&family=Rubik&display=swap");
+  font-family: "Lobster", cursive;
+}
+.screen-two .items {
+  font-weight: normal;
+  font-size: 25px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 20%);
+  grid-auto-rows: 30%;
+  -moz-column-gap: 135px;
+       column-gap: 135px;
+  row-gap: 70px;
+  padding: 10% 10% 0 10%;
+}
+.screen-two .items .item2 {
+  position: absolute;
+  position: relative;
+  text-align: center;
+  transform: translateX(-1000%);
+  transition-duration: 1000ms;
+  z-index: 2;
+}
+.screen-two .items .item2:hover {
+  cursor: pointer;
+}
+.screen-two .items .item2 .top-grid {
+  position: relative;
+  z-index: 2;
+}
+.screen-two .items .item2 .bottom-grid {
+  position: relative;
+  margin-top: 20px;
+  z-index: 2;
+}
+.screen-two .items .item2 .img1 {
+  border: 1px white solid;
+  align-items: center;
+  border-radius: 30px;
+  margin-bottom: 5%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.screen-two .items .item2 .img1:hover {
+  cursor: pointer;
+  background: white;
+}
+.screen-two .items .item2 .img1:hover p {
+  color: black;
+}
+.screen-two .items .item2 .img1 p {
+  color: white;
+  margin: 10px 20px 20px 20px;
+}
+.screen-two .items .item2 span {
+  color: white;
+  font-size: 20px;
+}
+.screen-two .look {
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  margin-left: -234px;
+  transform: translateY(120%);
+  transition-duration: 2000ms;
+}/*# sourceMappingURL=two.css.map */

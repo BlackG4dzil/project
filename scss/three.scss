@@ -1,0 +1,171 @@
+.screen-three {
+    position: absolute;
+    .wrapper {
+        width: 100%;
+        height: 100vh;
+        background-color: #000000;
+        background-image: linear-gradient(45deg, #000000 0%, #141414 74%);
+        .container {
+        margin: 0 auto;
+        width: 70%;
+        .wrap {
+            transition-duration: 1000ms;
+            transform: translateY(230%);
+            display: flex;
+            justify-content: space-between;
+            padding-top: 110px;
+            .left-wrap {
+                h1{
+                    font-size: 60px;
+                    color: #fff;
+                }
+                .info {
+                    color: #676767;
+                    width: 700px;
+                    margin: 30px 0;
+                    font-size: 22px;
+                }
+                h3 {
+                    color: #fff;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                }
+                .wrap-grid {
+                    display: grid;
+                    grid-template-columns: repeat(5, 120px);
+                    grid-auto-rows: 120px;
+                    grid-gap: 10px;
+    
+                    .items-left-wrap {
+                        display: flex;
+                        align-items: center;
+                        padding: 10px 25px;
+                        flex-direction: column;
+                        background-color: #3d3d3d;
+                        position: relative;
+                        z-index: 1;
+                        margin-top: 10px;
+    
+                        .blur-item {
+                            position: absolute;
+                            width: 100%;
+                            height: 30px;
+                            bottom: 0;
+                            left: 0;
+                            z-index: 3;
+                            background-color: #000000d5;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+    
+                        .mg {
+                            color: #f0f0f0;
+                            margin-top: 10px;
+                        }
+                        span {
+                            color: #909090;
+                        }
+                    }
+    
+                    .items-left-wrap:nth-child(1) {
+                        background-color: #A40A34;
+                    }
+                }
+    
+                button {
+                    background-color: transparent;
+                    border-radius: 50px;
+                    width: 220px;
+                    height: 45px;
+                    color: #fff;
+                    border: 3px solid #f0f0f0;
+                    margin-top: 15px;
+                    &:hover{
+                        background-color: #fff;
+                        color: black;
+                        cursor: pointer;
+                     }
+                }
+            }
+    
+            .right-wrap {
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                
+            }
+        }
+    }
+    }
+    
+    
+    .wrappp{
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+        background-color: transparent;
+        position: absolute;
+        margin-top: 40px;
+        .item{
+            background-color: transparent;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: end;
+            img{
+                filter:invert(40%);
+            }
+            &:nth-child(4) {
+                // filter:invert(100%);
+                filter: grayscale(0%); 
+           }
+           p {
+               color: #f0f0f0;
+               margin-top: 10px;
+           }
+        } 
+    }
+    
+    .black{
+        transform: translateY(250%);
+        position: absolute;
+        z-index: 2;
+        bottom: 50px;
+        right: 0;
+        width: 185px;
+        height: 200px;
+        background-color: black;
+        color: white;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        .part1{
+            .ml{
+              font-size: 29px; 
+              font-weight: 600;
+            }
+            p{
+                font-size: 12px;
+                color: grey;
+            }
+            height: fit-content;
+        }
+        .part2{
+            p{
+                font-size: 12px;
+                color: grey;
+            }
+            height: fit-content;
+        }
+    }
+    .pink{
+        transform: translateY(250%);
+        width: 185px;
+        height: 50px;
+        background-color: #9D032B;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}

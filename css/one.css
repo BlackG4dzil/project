@@ -1,0 +1,119 @@
+.screen-one {
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+}
+.screen-one #big-pepsi {
+  transform: translateY(120%);
+  transition-duration: 2000ms;
+  width: 700px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50px;
+}
+.screen-one .wrapper {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+}
+.screen-one .wrapper .description {
+  opacity: 0;
+  transform: translateY(100%);
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  color: white;
+  z-index: 2;
+}
+.screen-one .wrapper .description h1 {
+  font-size: 70px;
+  color: white;
+  font-weight: 800;
+}
+.screen-one .wrapper .description p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.screen-one .wrapper .description button {
+  margin-top: 40px;
+  width: 240px;
+  padding: 10px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  border-radius: 20px;
+}
+.screen-one .wrapper .description button:hover {
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+}
+.screen-one .wrapper #big-pepsi {
+  position: absolute;
+  z-index: 1;
+  top: 100px;
+  left: 850px;
+}
+.screen-one .wrapper .boxes {
+  width: 100%;
+}
+.screen-one .wrapper .boxes .box {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 900px;
+  height: 220px;
+  background: white;
+  transform: translateY(110%);
+  z-index: 2;
+}
+.screen-one .wrapper .boxes .box h1, .screen-one .wrapper .boxes .box p {
+  margin-left: 40px;
+  margin-top: 22px;
+}
+.screen-one .wrapper .boxes .box img {
+  overflow: hidden;
+  width: 100px;
+  position: absolute;
+  bottom: 0;
+  right: 20;
+}
+.screen-one .wrapper .boxes .box2 {
+  position: absolute;
+  bottom: 0px;
+  left: 900px;
+  width: 25%;
+  height: 260px;
+  background: black;
+  z-index: 2;
+  color: white;
+  transform: translateY(110%);
+}
+.screen-one .wrapper .boxes .box2 h1, .screen-one .wrapper .boxes .box2 p {
+  margin-left: 40px;
+  margin-top: 22px;
+}
+.screen-one .wrapper .boxes .box3 {
+  position: absolute;
+  bottom: 0px;
+  left: 1375px;
+  width: 25%;
+  height: 260px;
+  background: rgb(84, 125, 248);
+  z-index: 2;
+  color: white;
+  transform: translateY(110%);
+}
+.screen-one .wrapper .boxes .box3 h1, .screen-one .wrapper .boxes .box3 p {
+  margin-left: 40px;
+  margin-top: 22px;
+}
+.screen-one .wrapper .boxes .box3 img {
+  width: 100%;
+  height: 70px;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+  top: 32px;
+  left: 0;
+}/*# sourceMappingURL=one.css.map */

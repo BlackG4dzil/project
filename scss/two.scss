@@ -1,0 +1,91 @@
+.screen-two {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,300;0,800;1,600;1,800&family=Roboto:wght@300;400&family=Rubik&display=swap');
+    font-family: 'Lobster', cursive;
+
+    // .active_animation{
+    //     transform: translate(-50%, 6%)scale(1.2, 1.2);
+    //     z-index: 4;
+    // }
+
+    .items{
+        // height: 90vh;
+        font-weight: normal;
+        font-size: 25px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(4, 20%);
+        grid-auto-rows: 30%;
+        column-gap: 135px;
+        row-gap: 70px;
+        padding: 10% 10% 0 10%;
+        .item2 {
+            position: absolute;
+            position: relative;
+            text-align: center;
+            transform: translateX(-1000%);
+            transition-duration: 1000ms;
+            &:hover{
+                cursor: pointer;
+            }
+            .top-grid {
+                position: relative;
+                z-index: 2;
+            }
+            
+            .bottom-grid {
+                position: relative;
+                margin-top: 20px;
+                z-index: 2;
+            }
+            
+            // .img2{
+            //     position: relative;
+            //     top: -300;
+            //     z-index: 3;
+            //     &:hover{
+            //         transform: translate(30%, -6%)scale(0.8, 0.8);
+            //     }
+            // }
+    
+            .img1 {
+                border: 1px white solid;
+                align-items: center;
+                border-radius: 30px;
+                // width: 370px;
+                // height: 60px;
+                margin-bottom: 5%;
+                object-fit: contain;
+                &:hover{
+                    cursor: pointer;
+                    background: white;
+                    p{
+                        color: black;
+                    }
+                }
+                p{
+                    color: white;
+                    margin: 10px 20px 20px 20px;
+                }
+            }
+    
+            z-index: 2;
+    
+            span {
+                color: white;
+                font-size: 20px;
+            }
+        }
+    }
+    .look{
+        position: absolute;
+        bottom: -100px;
+        left: 50%;
+        margin-left: -234px;
+        transform: translateY(120%);
+        transition-duration: 2000ms;
+    }
+  
+}
