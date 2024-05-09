@@ -19,7 +19,7 @@ let bio = document.querySelectorAll('.bio');
 let message = document.querySelector('.message');
 let data = document.querySelector('#data');
 let sport = document.querySelector('#sport');
-let look = document.querySelectorAll('.look');
+let look = document.querySelector('#look');
 
 // for (let item1 of imges1) {
 //     item1.onmouseenter = () =>{
@@ -77,6 +77,9 @@ open_two.onclick = () =>{
         }, 100)
     }, 100)
     setTimeout(() =>{
+        look.classList.add('active')
+    },300)
+    setTimeout(() =>{
         open_another_page(2)
     }, 1000)
 }
@@ -99,7 +102,7 @@ data.onclick = () =>{
     }, 100)
     setTimeout(() =>{
         look.classList.add('active')
-    })
+    },300)
     setTimeout(() =>{
         open_another_page(2)
     }, 1000)
@@ -139,6 +142,9 @@ for (let i = 0; i < elements.length; i++) {
             setTimeout(() =>{
                 elements[i].classList.add('active2')
             },400)
+            setTimeout(() =>{
+                look.classList.add('active2')
+            })
         }
     }
 }

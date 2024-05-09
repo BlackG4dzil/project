@@ -1,6 +1,7 @@
 .screen-two {
+    height: 100vh;
     overflow-y: scroll;
-    scroll-behavior: smooth;
+    position: relative;
     background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
     @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,300;0,800;1,600;1,800&family=Roboto:wght@300;400&family=Rubik&display=swap');
     font-family: 'Lobster', cursive;
@@ -79,13 +80,15 @@
             }
         }
     }
-    .look{
+    #look{
         position: absolute;
+        opacity: 0;
         bottom: -100px;
         left: 50%;
         margin-left: -234px;
-        transform: translateY(120%);
-        transition-duration: 2000ms;
+        transform: translateY(180%);
+        transition-duration: 3300ms;
+        z-index: 2;
     }
   
 }
