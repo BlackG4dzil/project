@@ -5,6 +5,7 @@
   transform: translateY(120%);
   transition-duration: 2000ms;
   width: 700px;
+  opacity: 0;
   background-repeat: no-repeat;
   background-size: contain;
   border-radius: 50px;

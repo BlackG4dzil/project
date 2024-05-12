@@ -20,6 +20,9 @@ let message = document.querySelector('.message');
 let data = document.querySelector('#data');
 let sport = document.querySelector('#sport');
 let look = document.querySelector('#look');
+let mr = document.querySelector('#mr');
+let bogdan = document.querySelector('#bogdan');
+let cl = document.querySelector('#cl');
 
 // for (let item1 of imges1) {
 //     item1.onmouseenter = () =>{
@@ -173,3 +176,11 @@ setTimeout(() =>{
 }, 2000)
 
 
+mr.onclick = () =>{
+    bogdan.classList.add('z_index')
+    cl.style.display = 'block'
+}
+cl.onclick = () =>{
+    bogdan.classList.remove('z_index')
+    cl.style.display = 'none'
+}

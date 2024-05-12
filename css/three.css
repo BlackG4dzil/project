@@ -34,6 +34,7 @@
   text-transform: uppercase;
 }
 .screen-three .wrapper .container .wrap .left-wrap .wrap-grid {
+  margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(3, 120px);
   grid-auto-rows: 120px;
@@ -77,11 +78,12 @@
 .screen-three .wrapper .container .wrap .left-wrap button {
   background-color: transparent;
   border-radius: 50px;
-  width: 220px;
+  width: 330px;
   height: 45px;
   color: #fff;
   border: 3px solid #f0f0f0;
   margin-top: 260px;
+  font-size: 15px;
 }
 .screen-three .wrapper .container .wrap .left-wrap button:hover {
   background-color: #fff;
@@ -135,4 +137,46 @@
   position: absolute;
   bottom: 0;
   right: 0;
+}
+.screen-three #bogdan_box {
+  width: 100%;
+  height: 100vh;
+  display: block;
+}
+.screen-three #bogdan_box #bogdan {
+  z-index: -4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.screen-three .z_index {
+  z-index: 8 !important;
+}
+.screen-three .y_index {
+  z-index: -4 !important;
+}
+.screen-three .cl_im {
+  width: 100%;
+  height: 100vh;
+}
+.screen-three .cl_im span {
+  display: none;
+  z-index: 15;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  bottom: 50;
+  left: 50%;
+  margin-left: -20px;
 }/*# sourceMappingURL=three.css.map */
