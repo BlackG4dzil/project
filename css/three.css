@@ -16,7 +16,7 @@
   transform: translateY(230%);
   display: flex;
   justify-content: space-between;
-  padding-top: 110px;
+  padding-top: 12%;
 }
 .screen-three .wrapper .container .wrap .left-wrap h1 {
   font-size: 60px;
