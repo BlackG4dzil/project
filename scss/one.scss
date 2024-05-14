@@ -21,8 +21,8 @@
            opacity: 0;
            transform: translateY(100%);
            position: absolute;
-           top: 200px;
-           left: 200px;
+           top: 26%;
+           left: 10%;
            color: white;
            z-index: 2;
            h1{
@@ -52,8 +52,9 @@
         #big-pepsi{
            position: absolute;
            z-index: 1;
-           top: 100px;
-           left: 850px;
+           top: 10%;
+         //   left: 850px;
+           left: 44%;
         }
         .boxes{
           width: 100%;
@@ -61,7 +62,7 @@
               position: absolute;
               bottom: 0px;
               left: 0px;
-              width: 900px;
+              width: 50%;
               height: 220px;
               background: white;
               transform: translateY(110%);
@@ -84,7 +85,7 @@
            .box2{
               position: absolute;
               bottom: 0px;
-              left: 900px;
+              left: 50%;
               width: 25%;
               height: 260px;
               background: black;
@@ -102,8 +103,8 @@
            .box3{
              position: absolute;
              bottom: 0px;
-             left: 1375px;
-             width: 25%;
+             left: 75%;
+             width: 24%;
              height: 260px;
              background: rgb(84, 125, 248);
              z-index: 2;
