@@ -136,8 +136,8 @@ for (let i = 0; i < elements.length; i++) {
             open_another_page(3)
             setTimeout(() =>{
                 wrap.classList.add('active')
-                black.classList.add('active')
-                pink.classList.add('active')
+                // black.classList.add('active')
+                // pink.classList.add('active')
                 message.classList.add('active_3')
             },1000)
         }, 1000)
